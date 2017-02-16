@@ -19,6 +19,8 @@ public:
 	void setStep(int step);
 
 	void setTimeOffset(double offset) { _timeOffset = offset; }
+	
+	
 	double getTimeOffset() const { return _timeOffset; }
 
 	void setTimeMultiplier(double multiplier) { _timeMultiplier = multiplier; }
